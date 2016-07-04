@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+	
+  body {
+    background-color: #f9f9f9;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+  .container {
+     margin:0 auto; 
+     width: 1070px;
+     height: 950px; 
+     background-color: white; 
+     box-shadow: 0 0 5px #dbdbdb;
+     box-sizing: border-box;
+     padding: 0 45px;
+     padding-top: 50px;
+    
+   }
+   header: {
+    margin-bottom: 40px;
+   }
+   
+  .logo {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+
+    .main-nav {
+    color: #fff;    
+    vertical-align: middle;
+    line-height: 38px;   
+    padding-bottom: 45px;
+    padding-top:45px;
+
+  }
+    .main-nav li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 35px;
+  }
+    
+    .main-nav li{
+    display: inline-block;
+    text-decoration: none;
+    height: 40px
+    background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+    
+  }
+  .main-nav li a.active {
+    
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+    background-image: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
+      }
+  
+  .main.nav li a.hover{
+    background-image: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
+     color: #fff;
+
+  }
+
+   
+  .right-side
+  {
+    width: 680px;
+    float:right;
+    
+  }
+
+  .left-side-menu {
+    border: 1px solid #c8c8c8;
+    float: left;
+    width: 240px;
+    list-style: none;
+    margin-bottom: 40px;
+    text-decoration: none;
+
+  }
+
+  .left-side-menu li {
+    border-bottom: 1px solid #c8c8c8;
+    padding-left: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: block;
+    list-style: none;
+    
+  }
+
+  .left-side-menu a.active  {
+   text-decoration: none;
+   background-image: #f9f9f9;
+   
+    
+  }
+
+  .left-side-menu li a.hover {
+    text-decoration: none;
+    background-image: #f9f9f9;
+  }
+
+  .last-menu li {
+    float: left;           
+    position: relative;     
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+  }
+
+  
+  .last-menu li a{
+    display: block; 
+    text-decoration: none;
+     color: #656565;
+
+  }
+
+  .all-rights {
+      float: right;
+       text-align: right;
+       padding-right: 3%;
+       color: #656565;
+     }
